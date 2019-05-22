@@ -25,13 +25,22 @@ const reservations = [
  }
 
 ];
+//AJAX function that uses URL to reference API to GET 
 
 
 // Routes
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function(reg, res) {
-    res.sendFile(path.join(__dirname, 'index.html' ));
+    res.sendFile(path.join(__dirname, "index.html" ));
+});
+
+app.get("/tables", function(reg, res) {
+    res.sendFile(path.join(__dirname, "tables.html" ));
+});
+
+app.get("/reserve", function(reg, res) {
+    res.sendFile(path.join(__dirname, "reserve.html" ));
 });
 
 
