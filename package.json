@@ -1,0 +1,24 @@
+{
+  "name": "Hot-Restruant-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwhynot/Hot-Restruant-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwhynot/Hot-Restruant-/issues"
+  },
+  "homepage": "https://github.com/pwhynot/Hot-Restruant-#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "path": "^0.12.7"
+  }
+}
