@@ -8,7 +8,23 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+const reservations = [
+ {
+     routeName: 'table 1',
+     id: '001',
+     name: 'Bob',
+     email: 'bob@email.com',
+     phone: '555-5555',
+ },
+ {
+    routeName: 'table 2',
+     id: '002',
+     name: 'Ted',
+     email: 'ted@email.com',
+     phone: '555-5558', 
+ }
 
+];
 
 
 // Routes
